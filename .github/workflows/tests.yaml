@@ -19,7 +19,6 @@ jobs:
         with:
           args: --timeout 3m0s
   unit:
-    needs: lint
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
